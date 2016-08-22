@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Visual Deep Neural Network Builder for WSO2 Machine Learner by Lakini</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Visual Deep Neural Network Builder for WSO2 Machine Learner</h1>
+      <h2 class="project-tagline"></h2>
+      <a href="https://github.com/Lakini/carbon-ml" class="btn">View on GitHub</a>
+      <a href="https://github.com/Lakini/carbon-ml/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Lakini/carbon-ml/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>I have contributed to <a href="http://wso2.com/products/machine-learner/">WSO2 Machine Learner</a> in this summer as my <a href="https://summerofcode.withgoogle.com/projects/#5975937204092928">Google Summer of Code project</a> 2016</p>
+
+<h3>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h3>
+
+<p>WSO2 Machine Learner is a product by WSO2 Inc. ,where the user can train and test the models and can get good accurate, fast results.In WSO2 Machine Learner it uses Decision Trees, Linear Regression, Lasso Regression, SVM, and Naive Bayes etc. for supervised learning and K-Mean clustering like algorithms for unsupervised learning on data.It evaluates models using performance measures like ROC Curve, Confusion Matrix, Accuracy and Root Mean Squared Error and it uses Apache Spark.</p>
+
+<p>"Visual Deep Neural Network Builder for WSO2 Machine Learner" is a new feature which I had to build throughout my summer.Currently, WSO2 Machine Learner does not support neural network algorithms.So,by using Visual Deep Neural Network Builder user can do predictions by training and testing models with a neural network with more accuracy as they do with WSO2 Machine Learner.</p>
+
+<p>Visual Deep Neural Network Builder is a user-friendly web-based application where the user can create different types of Neural Networks as they wish.They can drag and drop the layers to the working area and can set different values for computational units of layers and can check the accuracy of their own models.</p>
+
+<p>The main importance of Visual Deep Neural Network Builder is that the user does not need to have a very deep knowledge of the neural network implementations.But they should have some knowledge about the computational units of the layers as they become the inputs for the algorithm calculations and evaluations.</p>
+
+<p>Proposal for the project can be found at the following link.</p>
+
+<p><code>Proposal</code> : <a href="https://docs.google.com/document/d/196565_2rgvFrLuuY8fkGQPsimvn4eL317o8BTFI8BRg/edit?usp=sharing">Proposal of Visual Deep neural Network Builder for WSO2 Machine Learner</a></p>
+
+<h3>
+<a id="implementations" class="anchor" href="#implementations" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Implementations</h3>
+
+<p>Full Documentation of the Visual Deep Neural Network builder can be found here.</p>
+
+<p><code>Documentation</code> <a href="https://docs.google.com/document/d/1k8ee3PpqTQvv3NUqVREVCxFrochysTE_wgvxsPUm8GY/edit?usp=sharing">Documentation</a></p>
+
+<p>All commits I have done can be found from here.</p>
+
+<p><code>Commit List</code> <a href="https://docs.google.com/spreadsheets/d/1VKIO42LihJp3mpv4jS4G36C8wUwCw2P1YhT69wrDWI0/edit?usp=sharing">Commit List</a></p>
+
+<p>The Pull Request I have sent to the WSO2 Carbon-ML can be found from here.</p>
+
+<p><code>Pull Request</code> <a href="https://github.com/wso2/carbon-ml/pull/233">Pull Request</a></p>
+
+<p>My forked repository can be found from here.</p>
+
+<p><code>Repository</code> <a href="https://github.com/Lakini/carbon-ml/tree/visualDeepNeuralNetworkBuilder">Repository</a></p>
+
+<p>I have learned a lot from my Google Summer of Code project.I have written some post about the new things I have learned.My blog can be found from here.</p>
+
+<p><code>Blog</code> <a href="http://gsoc2016withlakini.blogspot.com/">Lakini's Blog</a></p>
+
+<p>There are 3 main features in the Visual Deep Neural Network builder .</p>
+
+<ul>
+<li>User-friendly user interfaces to design Neural Networks</li>
+<li>Model Generation</li>
+<li>Evaluate the Model </li>
+</ul>
+
+<p>You can find more details about these features from the Documentation and Demo.</p>
+
+<h3>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h3>
+
+<p>In the demo, you can see how to work with the Visual Deep Neural Network Builder and how to do  training, testing, and an evaluation of a small neural network.</p>
+
+<p><a href="https://www.youtube.com/watch?v=ZVBhFR8pcHs&amp;feature=youtu.be">Demo of Visual Deep Neural Network for WSO2  Machine Learner</a></p>
+
+<h3>
+<a id="future-work" class="anchor" href="#future-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Future Work</h3>
+
+<ul>
+<li>The Visual Deep Neural Network has to integrate with WSO2 Machine Learner.</li>
+<li>Have to implement the ways to save and reuse the models.</li>
+<li>Have to implement the ways to display evaluation details using graphs to the user through the user interface.</li>
+<li>Visual Neural Network 1.0.0 only supports Feed Forward Networks.Have to extend to other neural network algorithms like Convolution networks etc.</li>
+</ul>
+
+<h3>
+<a id="acknowledgement" class="anchor" href="#acknowledgement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Acknowledgement</h3>
+
+<p>Finally, I would like to thank my mentors namely <strong>Nirmal Fernando</strong>(<a href="mailto:nirmal@wso2.com">nirmal@wso2.com</a>), <strong>Upul Bandara</strong>(<a href="mailto:upul@wso2.com">upul@wso2.com</a>) and <strong>Supun Setunga</strong>(<a href="mailto:supuns@wso2.com">supuns@wso2.com</a>) and WSO2 ML Team for the superb guidance and immense support which gave throughout the project. </p>
+
+<p>As well as I would like to thank WSO2 and GOOGLE for giving me this opportunity to have a valuable,amazing Summer.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/Lakini/carbon-ml">Visual Deep Neural Network Builder for WSO2 Machine Learner</a> is maintained by <a href="https://github.com/Lakini">Lakini</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
